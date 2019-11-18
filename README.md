@@ -6,11 +6,7 @@
 # HW3 ― GAN, ACGAN and UDA
 In this assignment, you are given datasets of human face and digit images. You will need to implement the models of both GAN and ACGAN for generating human face images, and the model of DANN for classifying digit images from different domains.
 
-<p align="center">
-  <img width="550" height="500" src="https://lh3.googleusercontent.com/RvJZ5ZP0sVOqQ2qW7vIRJTP3PoIFCWGLYxvtYAjBKA2pLZWsyUICoBW9v_ENV6EsO7RBNVe1IIA">
-</p>
-
-For more details, please click [this link](https://1drv.ms/p/s!AmVnxPwdjNF2gZtOUMO5HEEQqLB8Ew) to view the slides of HW3.
+For more details, please click [this link]() to view the slides of HW3.
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
