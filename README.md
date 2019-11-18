@@ -104,7 +104,7 @@ Note that using packages with different versions will very likely lead to compat
 - If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://goo.gl/XvCaLR).
 
 - **If we can not reproduce the scores or images in your report, you will get 0 points in the corresponding problem.**
--**If we can not execute your code, we will give you a chance to make minor modifications to your code. After you modify your code**
+- **If we can not execute your code, we will give you a chance to make minor modifications to your code. After you modify your code**
     - If we can execute your code and reproduce your results on the validation set, you will still receive a 30% penalty in your homework score.
     - If we can run your code but cannot reproduce your results in the report, you will get 0 points in the corresponding problem and you will receive a 30% penalty in your report score.
     - If we still cannot execute your code, you will get 0 in the corresponding problem.
