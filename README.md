@@ -105,5 +105,5 @@ Note that using packages with different versions will very likely lead to compat
 If you have any problems related to HW3, you may
 - Use TA hours (please check [course website](http://vllab.ee.ntu.edu.tw/dlcv.html) for time/location)
 - Contact TAs by e-mail ([ntudlcvta2019@gmail.com](mailto:ntudlcvta2019@gmail.com))
-- Post your question in the comment section of [this post](https://www.facebook.com/notes/dlcv-spring-2019/hw3-qa/327017398008644/)
+- Post your question in the comment section of [this post]()
 
