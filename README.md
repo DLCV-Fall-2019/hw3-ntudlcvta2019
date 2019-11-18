@@ -42,10 +42,12 @@ Note that for `hw3_eval.py` to work, your predicted `.csv` files should have the
 
 # Submission Rules
 ### Deadline
-?????????
+108/12/03 (Tue.) 03:00 AM
 
 ### Late Submission Policy
-?????????
+You have a five-day delay quota for the whole semester. Once you have exceeded your quota, the credit of any late submission will be deducted by 30% each day.
+
+**NOTE** To encourage students to submit homework on time, students using no more than three late-day quota will receive a bonus of two points in their final scores. Students using four late-day quota in this semester will receive a bonus of one point in their final scores.
 
 Note that while it is possible to continue your work in this repository after the deadline, **we will by default grade your last commit before the deadline** specified above.
 
@@ -67,39 +69,45 @@ The shell script file for running your improved UDA model. This script takes as 
 
 We will run your code in the following manner:
 
-    bash ./hw3_p1p2.sh $1
-    bash ./hw3_p3.sh $2 $3 $4
-    bash ./hw3_p4.sh $2 $3 $4
+    CUDA_VISIBLE_DEVICES=GPU_NUMBER bash ./hw3_p1p2.sh $1
+    CUDA_VISIBLE_DEVICES=GPU_NUMBER bash ./hw3_p3.sh $2 $3 $4
+    CUDA_VISIBLE_DEVICES=GPU_NUMBER bash ./hw3_p4.sh $2 $3 $4
 
 -   `$1` is the folder to which you should output your `fig1_2.jpg` and `fig2_2.jpg`.
--   `$2` is the directory of testing images in the **target** domain (e.g. `hw3_data/digits/mnistm/test`).
--   `$3` is a string that indicates the name of the target domain, which will be either `mnistm` or `svhn`. 
-	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `mnistm`, you should make your prediction using your "SVHN→MNIST-M" model, **NOT** your "MNIST-M→SVHN" model.
--   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/mnistm/test_pred.csv`).
+-   `$2` is the directory of testing images in the **target** domain (e.g. `hw3_data/digits/svhn/test`).
+-   `$3` is a string that indicates the name of the target domain, which will be either `svhn` or `usps`. 
+	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `svhn`, you should make your prediction using your "usps→svhn" model, **NOT** your "svhn→usps" model.
+-   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/usps/test_pred.csv`).
 
-> 🆕 ***NOTE***  
-> For the sake of conformity, please use the `python3` command to call your `.py` files in all your shell scripts. Do not use `python` or other aliases, otherwise your commands may fail in our autograding scripts.
+> ⚠️ ***IMPORTANT NOTE*** ⚠️
+> For the sake of conformity, please use the -**python3** command to call your `.py` files in all your shell scripts. Do not use `python` or other aliases, otherwise your commands may fail in our autograding scripts.
+>You must **not** use commands such as **rm, sudo, CUDA_VISIBLE_DEVICES**, cp, mv, mkdir, cd, pip or other commands to change the Linux environment.
+>We will execute you code on Linux system, so try to make sure you code can be executed on **Linux** system before submitting your homework.
+>- **DO NOT** hard code any path in your file or script except for the path of your trained model.
+>The execution time of your testing code should not exceed an allowed maximum of **10 minutes**.
+>Use the wget command in your script to download you model files. Do not use the curl command.
+>**Do not delete** your trained model before the TAs disclose your homework score and before you make sure that your score is correct.
+>Do not create the `$1` and `$4` directories in your bash script or python codes.
+>If you use matplotlib in your code, please add matplotlib.use(“Agg”) in you code or we will not be able to execute your code.
+>Do not use imshow() or show() in your code or your code will crash.
+>Use os.path.join to deal with path as often as possible.
 
 ### Packages
-Below is a list of packages you are allowed to import in this assignment:
+This homework should be done using python3.6 and you can use all the python3.6 standard libraries. For a list of third-party packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.
+You can run the following command to install all the packages listed in the requirements.txt:
 
-> [`python`](https://www.python.org/): 3.5+  
-> [`tensorflow`](https://www.tensorflow.org/): 1.13  
-> [`keras`](https://keras.io/): 2.2+  
-> [`torch`](https://pytorch.org/): 1.2.0
-> [`h5py`](https://www.h5py.org/): 2.9.0  
-> [`numpy`](http://www.numpy.org/): 1.16.2  
-> [`pandas`](https://pandas.pydata.org/): 0.24.0  
-> [`torchvision`](https://pypi.org/project/torchvision/): 0.2.2  
-> [`cv2`](https://pypi.org/project/opencv-python/), [`matplotlib`](https://matplotlib.org/), [`skimage`](https://scikit-image.org/), [`Pillow`](https://pillow.readthedocs.io/en/stable/), [`scipy`](https://www.scipy.org/)  
-> [The Python Standard Library](https://docs.python.org/3/library/)
+    pip3 install -r requirements.txt
 
 Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above. E-mail or ask the TAs first if you want to import other packages.
 
 ### Remarks
 - If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://goo.gl/XvCaLR).
-- **DO NOT** hard code any path in your file or script, and the execution time of your testing code should not exceed an allowed maximum of **10 minutes**.
-- **If we fail to run your code due to not following the submission rules, you will receive 0 credit for this assignment.**
+
+- **If we can not reproduce the scores or images in your report, you will get 0 points in the corresponding problem.**
+-**If we can not execute your code, we will give you a chance to make minor modifications to your code. After you modify your code**,
+    -If we can execute your code and reproduce your results on the validation set, you will still receive a 30% penalty in your homework score.
+    -If we can run your code but cannot reproduce your results in the report, you will get 0 points in the corresponding problem and you will receive a 30% penalty in your report score.
+    -If we still cannot execute your code, you will get 0 in the corresponding problem.
 
 # Q&A
 If you have any problems related to HW3, you may
