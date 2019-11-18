@@ -95,15 +95,15 @@ We will run your code in the following manner:
 > ⚠️ ***IMPORTANT NOTE*** ⚠️  
 > - For the sake of conformity, please use the -**python3** command to call your `.py` files in all your shell scripts. Do not use `python` or other aliases, otherwise your commands may fail in our autograding scripts.
 > - You must **not** use commands such as **rm, sudo, CUDA_VISIBLE_DEVICES**, cp, mv, mkdir, cd, pip or other commands to change the Linux environment.
-> - We will execute you code on Linux system, so try to make sure you code can be executed on **Linux** system before submitting your homework.
+> - We will execute you code on Linux system, so please make sure you code can be executed on **Linux** system before submitting your homework.
 > - **DO NOT** hard code any path in your file or script except for the path of your trained model.
 > - The execution time of your testing code should not exceed an allowed maximum of **10 minutes**.
 > - Use the wget command in your script to download you model files. Do not use the curl command.
 > - **Do not delete** your trained model before the TAs disclose your homework score and before you make sure that your score is correct.
-> - Do not create the `$1` and `$4` directories in your bash script or python codes.
+> - Do not create the `$1` and `$4` directories in your shell script or python codes.
 > - If you use matplotlib in your code, please add matplotlib.use(“Agg”) in you code or we will not be able to execute your code.
 > - Do not use imshow() or show() in your code or your code will crash.
-> - Use os.path.join to deal with path as often as possible.
+> - Use os.path.join to deal with path issues as often as possible.
 
 ### Packages
 This homework should be done using python3.6 and you can use all the python3.6 standard libraries. For a list of third-party packages allowed to be used in this assignment, please refer to the requirments.txt for more details.
