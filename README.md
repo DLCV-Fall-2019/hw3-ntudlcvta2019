@@ -56,10 +56,10 @@ Note that while it is possible to continue your work in this repository after th
 
     https://forms.gle/Cz6M4t3zccZwSbVa8
 
-- After you push your homework to the github repository, please fill in the form below immedaitely. We will calculate the number of late days according to the time we received the response of this form. Please note that you will have access to this form after 108/12/03 10:00 A.M. Please also note that you can only fill in this form once.
+- After you push your homework to the github repository, please fill in the form below immedaitely. We will calculate the number of late days according to the time we received the response of this form. Please note that you will have access to this form after 108/12/03 10:00 A.M. Please also note that you can only fill in this form **once**, so you must make sure your homework is ready to be graded before submitting this form.
 
     https://forms.gle/LvqnF2s81syDymwe6
-    
+
 
 ### Academic Honesty
 -   Taking any unfair advantages over other class members (or letting anyone do so) is strictly prohibited. Violating university policy would result in an **F** grade for this course (**NOT** negotiable).    
