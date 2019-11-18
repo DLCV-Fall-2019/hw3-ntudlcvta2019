@@ -54,7 +54,7 @@ You have a five-day delay quota for the whole semester. Once you have exceeded y
 Note that while it is possible to continue your work in this repository after the deadline, **we will by default grade your last commit before the deadline** specified above.
 
 ⚠️ Late Submission Forms⚠️ 
-> **If your are going to submit your homework after the homework deadline, please follow the following steps carefully**
+> **If your are going to submit your homework after the homework deadline, please follow the steps below carefully.**
 > - You must fill in this form befofre the deadline of hw3 to notify the TAs that you have not finished your homework. Then, we will not grade your homewrok imediately. Please note that once you submit this form your homework will be classified as late submitted ones. Even if you send the TAs an email before the homework deadline, your homework will be regarded as one day late. Therefore, before filling in this form, you must be 100% sure that you really are going to submit your homework after the deadline.
 >
 >    https://forms.gle/Cz6M4t3zccZwSbVa8
