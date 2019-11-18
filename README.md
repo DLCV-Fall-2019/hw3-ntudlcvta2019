@@ -6,7 +6,7 @@
 # HW3 ― GAN, ACGAN and UDA
 In this assignment, you are given datasets of human face and digit images. You will need to implement the models of both GAN and ACGAN for generating human face images, and the model of DANN for classifying digit images from different domains.
 
-For more details, please click [this link]() to view the slides of HW3.
+For more details, please check the slides of HW3.
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
@@ -18,7 +18,7 @@ Note that you should replace `<username>` with your own GitHub username.
 In the starter code of this repository, we have provided a shell script for downloading and extracting the dataset for this assignment. For Linux users, simply use the following command.
 
     bash ./get_dataset.sh
-The shell script will automatically download the dataset and store the data in a folder called `hw3_data`. Note that this command by default only works on Linux. If you are using other operating systems, you should download the dataset from [this link](https://drive.google.com/uc?export=download&id=1gbnGEMyLIsYdIoyUyVZjYK8MzQZs4e_V) and unzip the compressed file manually.
+The shell script will automatically download the dataset and store the data in a folder called `hw3_data`. Note that this command by default only works on Linux. If you are using other operating systems, you should download the dataset from [this link]() and unzip the compressed file manually.
 
 > ⚠️ ***IMPORTANT NOTE*** ⚠️  
 > You should keep a copy of the dataset only in your local machine. **DO NOT** upload the dataset to this remote repository. If you extract the dataset manually, be sure to put them in a folder called `hw3_data` under the root directory of your local repository so that it will be included in the default `.gitignore` file.
@@ -45,7 +45,7 @@ Note that for `hw3_eval.py` to work, your predicted `.csv` files should have the
 ?????????
 
 ### Late Submission Policy
-You have a five-day delay quota for the whole semester. Once you have exceeded your quota, the credit of any late submission will be deducted by 30% each day.
+?????????
 
 Note that while it is possible to continue your work in this repository after the deadline, **we will by default grade your last commit before the deadline** specified above.
 
