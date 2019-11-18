@@ -50,7 +50,8 @@ You have a five-day delay quota for the whole semester. Once you have exceeded y
 **NOTE:** To encourage students to submit homework on time, students using no more than three late-day quota will receive a bonus of two points in their final scores. Students using four late-day quota in this semester will receive a bonus of one point in their final scores.
 
 Note that while it is possible to continue your work in this repository after the deadline, **we will by default grade your last commit before the deadline** specified above.
-⚠️ IMPORTANT NOTE ⚠️
+
+⚠️ IMPORTANT NOTE ⚠️ 
 > **If your are going to submit your homework after the homework deadline, please follow the following steps carefully**
 > - You must fill in this form befofre the deadline of hw3 to notify the TAs that you have not finished your homework. Then, we will not grade your homewrok imediately.
 
