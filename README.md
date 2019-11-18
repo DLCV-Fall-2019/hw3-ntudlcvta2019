@@ -79,7 +79,7 @@ We will run your code in the following manner:
 	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `svhn`, you should make your prediction using your "usps→svhn" model, **NOT** your "svhn→usps" model.
 -   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/usps/test_pred.csv`).
 
-> ⚠️ ***IMPORTANT NOTE*** ⚠️
+> ***IMPORTANT NOTE***
 > For the sake of conformity, please use the -**python3** command to call your `.py` files in all your shell scripts. Do not use `python` or other aliases, otherwise your commands may fail in our autograding scripts.
 > You must **not** use commands such as **rm, sudo, CUDA_VISIBLE_DEVICES**, cp, mv, mkdir, cd, pip or other commands to change the Linux environment.
 > We will execute you code on Linux system, so try to make sure you code can be executed on **Linux** system before submitting your homework.
@@ -104,10 +104,10 @@ Note that using packages with different versions will very likely lead to compat
 - If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://goo.gl/XvCaLR).
 
 - **If we can not reproduce the scores or images in your report, you will get 0 points in the corresponding problem.**
--**If we can not execute your code, we will give you a chance to make minor modifications to your code. After you modify your code**,
-    -If we can execute your code and reproduce your results on the validation set, you will still receive a 30% penalty in your homework score.
-    -If we can run your code but cannot reproduce your results in the report, you will get 0 points in the corresponding problem and you will receive a 30% penalty in your report score.
-    -If we still cannot execute your code, you will get 0 in the corresponding problem.
+-**If we can not execute your code, we will give you a chance to make minor modifications to your code. After you modify your code**
+    - If we can execute your code and reproduce your results on the validation set, you will still receive a 30% penalty in your homework score.
+    - If we can run your code but cannot reproduce your results in the report, you will get 0 points in the corresponding problem and you will receive a 30% penalty in your report score.
+    - If we still cannot execute your code, you will get 0 in the corresponding problem.
 
 # Q&A
 If you have any problems related to HW3, you may
