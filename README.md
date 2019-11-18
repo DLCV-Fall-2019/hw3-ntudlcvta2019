@@ -30,8 +30,8 @@ To evaluate your UDA models in Problems 3 and 4, you can run the evaluation scri
 
     python3 hw3_eval.py $1 $2
 
- - `$1` is the path to your predicted results (e.g. `hw3_data/digits/mnistm/test_pred.csv`)
- - `$2` is the path to the ground truth (e.g. `hw3_data/digits/mnistm/test.csv`)
+ - `$1` is the path to your predicted results (e.g. `hw3_data/digits/svhn/test_pred.csv`)
+ - `$2` is the path to the ground truth (e.g. `hw3_data/digits/svhn/test.csv`)
 
 Note that for `hw3_eval.py` to work, your predicted `.csv` files should have the same format as the ground truth files we provided in the dataset as shown below.
 
