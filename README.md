@@ -50,13 +50,13 @@ You have a five-day delay quota for the whole semester. Once you have exceeded y
 **NOTE:** To encourage students to submit homework on time, students using no more than three late-day quota will receive a bonus of two points in their final scores. Students using four late-day quota in this semester will receive a bonus of one point in their final scores.
 
 Note that while it is possible to continue your work in this repository after the deadline, **we will by default grade your last commit before the deadline** specified above.
-
-**If your are going to submit your homework after the homework deadline, please follow the following steps carefully**
-- You must fill in this form befofre the deadline of hw3 to notify the TAs that you have not finished your homework. Then, we will not grade your homewrok imediately.
+⚠️ IMPORTANT NOTE ⚠️
+> **If your are going to submit your homework after the homework deadline, please follow the following steps carefully**
+> - You must fill in this form befofre the deadline of hw3 to notify the TAs that you have not finished your homework. Then, we will not grade your homewrok imediately.
 
     https://forms.gle/Cz6M4t3zccZwSbVa8
 
-- After you push your homework to the github repository, please fill in the form below immedaitely. We will calculate the number of late days according to the time we received the response of this form. Please note that you will have access to this form after 108/12/03 10:00 A.M. Please also note that you can only fill in this form **once**, so you must make sure your homework is ready to be graded before submitting this form.
+> - After you push your homework to the github repository, please fill in the form below immedaitely. We will calculate the number of late days according to the time we received the response of this form. Please note that you will have access to this form after 108/12/03 10:00 A.M. Please also note that you can only fill in this form **once**, so you **must** make sure your homework is ready to be graded before submitting this form.
 
     https://forms.gle/LvqnF2s81syDymwe6
 
