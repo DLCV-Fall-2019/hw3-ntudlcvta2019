@@ -11,7 +11,7 @@ For more details, please click [this link]() to view the slides of HW3.
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
 
-    git clone https://github.com/dlcv-spring-2019/hw3-<username>.git
+    git clone hhttps://github.com/DLCV-Fall-2019/hw3-<username>.git
 Note that you should replace `<username>` with your own GitHub username.
 
 ### Dataset
