@@ -22,6 +22,8 @@ The shell script will automatically download the dataset and store the data in a
 
 > ⚠️ ***IMPORTANT NOTE*** ⚠️  
 > You should keep a copy of the dataset only in your local machine. **DO NOT** upload the dataset to this remote repository. If you extract the dataset manually, be sure to put them in a folder called `hw3_data` under the root directory of your local repository so that it will be included in the default `.gitignore` file.
+> Using external dataset is forbidden for this homework.
+> Do **not** used Imagenet pre-trained wieght and bias.
 
 ### Evaluation
 To evaluate your UDA models in Problems 3 and 4, you can run the evaluation script provided in the starter code by using the following command.
@@ -54,13 +56,13 @@ Note that while it is possible to continue your work in this repository after th
 ⚠️ Late Submission Forms⚠️ 
 > **If your are going to submit your homework after the homework deadline, please follow the following steps carefully**
 > - You must fill in this form befofre the deadline of hw3 to notify the TAs that you have not finished your homework. Then, we will not grade your homewrok imediately. Please note that once you submit this form your homework will be classified as late submitted ones. Even if you send the TAs an email before the homework deadline, your homework will be regarded as one day late. Therefore, before filling in this form, you must be 100% sure that you really are going to submit your homework after the deadline.
-
+>
 >    https://forms.gle/Cz6M4t3zccZwSbVa8
-
-> - After you push your homework to the github repository, please fill in the form below immedaitely. We will calculate the number of late days according to the time we received the response of this form. Please note that you will have access to this form after 108/12/03 10:00 A.M. Please also note that you can only fill in this form **once**, so you **must** make sure your homework is ready to be graded before submitting this form.
-
+>
+> - After you push your homework to the github repository, please fill in the form below immedaitely. We will calculate the number of late days according to the time we receive the response of this form. Please note that you will have access to this form after 108/12/03 10:00 A.M. Please also note that you can only fill in this form **once**, so you **must** make sure your homework is ready to be graded before submitting this form.
+>
 >    https://forms.gle/LvqnF2s81syDymwe6
-
+>
 
 ### Academic Honesty
 -   Taking any unfair advantages over other class members (or letting anyone do so) is strictly prohibited. Violating university policy would result in an **F** grade for this course (**NOT** negotiable).    
