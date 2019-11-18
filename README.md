@@ -106,7 +106,7 @@ We will run your code in the following manner:
 > - Use os.path.join to deal with path as often as possible.
 
 ### Packages
-This homework should be done using python3.6 and you can use all the python3.6 standard libraries. For a list of third-party packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.
+This homework should be done using python3.6 and you can use all the python3.6 standard libraries. For a list of third-party packages allowed to be used in this assignment, please refer to the requirments.txt for more details.
 You can run the following command to install all the packages listed in the requirements.txt:
 
     pip3 install -r requirements.txt
@@ -119,7 +119,7 @@ Note that using packages with different versions will very likely lead to compat
 - **If we can not reproduce the scores or images in your report, you will get 0 points in the corresponding problem.**
 - **If we can not execute your code, we will give you a chance to make minor modifications to your code. After you modify your code**
     - If we can execute your code and reproduce your results on the validation set, you will still receive a 30% penalty in your homework score.
-    - If we can run your code but cannot reproduce your results in the report, you will get 0 points in the corresponding problem and you will receive a 30% penalty in your report score.
+    - If we can run your code but cannot reproduce your results in the report, you will get 0 points in the corresponding problem.
     - If we still cannot execute your code, you will get 0 in the corresponding problem.
 
 # Q&A
