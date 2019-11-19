@@ -88,9 +88,9 @@ We will run your code in the following manner:
 
 -   `$1` is the folder to which you should output your `fig1_2.jpg` and `fig2_2.jpg`.
 -   `$2` is the directory of testing images in the **target** domain (e.g. `hw3_data/digits/svhn/test`).
--   `$3` is a string that indicates the name of the target domain, which will be either `svhn` or `usps`. 
-	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `svhn`, you should make your prediction using your "usps→svhn" model, **NOT** your "svhn→usps" model.
--   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/usps/test_pred.csv`).
+-   `$3` is a string that indicates the name of the target domain, which will be either `mnistm` or `svhn`. 
+	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `svhn`, you should make your prediction using your "mnistm→svhn" model, **NOT** your "svhn→mnistm→" model.
+-   `$4` is the path to your output prediction file (e.g. `hw3_data/digits/svhn/test_pred.csv`).
 
 > ⚠️ ***IMPORTANT NOTE*** ⚠️  
 > - For the sake of conformity, please use the -**python3** command to call your `.py` files in all your shell scripts. Do not use `python` or other aliases, otherwise your commands may fail in our autograding scripts.
@@ -118,7 +118,7 @@ Note that using packages with different versions will very likely lead to compat
 
 - **If we can not reproduce the scores or images in your report, you will get 0 points in the corresponding problem.**
 - **If we can not execute your code, we will give you a chance to make minor modifications to your code. After you modify your code**
-    - If we can execute your code and reproduce your results on the validation set, you will still receive a 30% penalty in your homework score.
+    - If we can execute your code and reproduce your results in the report, you will still receive a 30% penalty in your homework score.
     - If we can run your code but cannot reproduce your results in the report, you will get 0 points in the corresponding problem.
     - If we still cannot execute your code, you will get 0 in the corresponding problem.
 
